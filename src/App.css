@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir.woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: Vazir;
+  src: url("./assets/fonts/Vazir-Thin.woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: fallback;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none; /* prevent webkit from assetsizing text to fit */
+  -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Vazir", Helvetica, sans-serif;
+}
+a {
+  color: rgb(0, 3, 170);
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(245, 0, 87, 0.4);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
+
+.mybutton {
+  border: 1px solid;
+}
+img.pokemon-img {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
